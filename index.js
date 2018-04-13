@@ -10,8 +10,8 @@ function inc (a) {return a += 1}
 
 function dec (a) {return a -= 1}
 
-function makeInt (n) {parseInt("n", 10)}
+function makeInt (n) {parseInt('n', 10)}
 
-function isNaN (n) {if (n === makeInt (n)) {return false} else {return true}}
+function isNaN (n) {if (n === makeInt (n)) {return true}}
 
 function preserveDecimal (n) {parseFloat("n")}
