@@ -12,4 +12,6 @@ function dec (a) {return a -= 1}
 
 function makeInt (n) {parseInt("n", 10)}
 
+function isNaN(makeInt(n)) {if (n === makeInt (n)) {return false} else {return true}}
+
 function preserveDecimal (n) {parseFloat("n")}
