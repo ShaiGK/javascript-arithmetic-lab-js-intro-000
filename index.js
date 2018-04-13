@@ -10,6 +10,6 @@ function inc (a) {return a += 1}
 
 function dec (a) {return a -= 1}
 
-function makeInt (n) {parseInt('n', 10)}
+function makeInt (a) {parseInt('a', 10)}
 
-function preserveDecimal (n) {parseFloat('n')}
+function preserveDecimal (a) {parseFloat('a')}
