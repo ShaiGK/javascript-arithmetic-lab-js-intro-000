@@ -10,6 +10,6 @@ function inc (a) {return a += 1}
 
 function dec (a) {return a -= 1}
 
-function makeInt ("string") {parseInt("string", 10)}
+function makeInt (string) {parseInt("string", 10)}
 
-function preserveDecimal ("string") {parseFloat("string")}
+function preserveDecimal (string) {parseFloat("string")}
